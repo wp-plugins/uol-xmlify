@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name: uol-xmlify
-Plugin URI: http://girino.org/uol-xmlify
-Description: Add adds from uol-xml to your posts and feeds
+Plugin URI: http://girino.org/wordpress/plugins/uol-xmlify/
+Description: Add ads from uol-xml to your posts and feeds
 Author: Girino Vey!
 Author URI: http://www.girino.org/
-Version: 0.0.1
+Version: 0.0.2
 
-Copyright 2008 Girino Vey!
+Copyright 2010 Girino Vey!
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -25,18 +25,19 @@ HISTORY
 Version		Date		Author		Description
 --------	--------	-----------	------------------------------
 0.0.1		20100502	girino		first version.
+0.0.2		20100613	girino		fixed typos, started docs,
+						removed my site ids.
 */
 
 define('default_style', 'width: 468px; height: 60px; border: 1px solid grey; margin 5px; padding: 5px');
-define('default_url', 'http://www.girino.org/uol/cache.xml');
 define('default_numads', 2);
 define('default_feeds', 1);
 define('default_at_bottom', 1);
 define('default_keywords', 'tv');
 define('default_cat', 'eletronicos');
 define('default_sub', 'tv');
-define('default_idtURL', '6721');
-define('default_idtLabel', '27894');
+define('default_idtURL', '0000');
+define('default_idtLabel', '00000');
 
 $urls = array(
 	//'todos' => 'http://xml.shopping.uol.com.br/todos.html',
